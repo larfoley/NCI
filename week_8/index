@@ -1,0 +1,142 @@
+var myString = "lar";
+var myNumber = 87;
+var myBoolean = true;
+
+
+// Do not edit the code under this line
+console.log("Name: " + myString);
+console.log("Lucky Number: " + myNumber);
+console.log("Good joke? " + myBoolean);
+
+console.log(3.5);
+console.log(2016 - 1969);
+console.log(65 / 240);
+console.log((65 / 240) * 100)
+
+console.log(3.5);
+console.log(2016 - 1969);
+console.log(65 / 240);
+console.log((65 / 240) * 100);
+
+var harryPotterFan = false;
+
+if (harryPotterFan) {
+    console.log('Mischief managed.');
+    } else {
+      console.log('I lead a muggle\'s life.');
+    }
+
+    var hungerLevel = 5;
+
+    if (hungerLevel > 7) {
+      console.log('Time to eat!');
+    } else {
+    	console.log('Let\'s eat later.');
+    }
+
+    hungerLevel = 10;
+
+    if (hungerLevel > 7) {
+      console.log('Time to eat!');
+    } else {
+    	console.log('Let\'s eat later.');
+    }
+
+    var moonPhase = 'full';
+
+if (moonPhase == 'full') {
+  console.log("Howwwwlll!!");
+} else {
+  console.log('I swear I am not a werewolf...');
+}
+
+var moonPhase = 'mostly eclipse';
+
+var moonPhase = 'solar eclipse';
+
+if (moonPhase === 'full') {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier.');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+var moonPhase = 'full';
+var foggyNight = false;
+
+if (moonPhase === 'full' || foggyNight) {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier.');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+var moonPhase = 'full';
+
+if (moonPhase === 'full' || foggyNight) {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier.');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+switch (moonPhase) {
+  case 'tomato':
+    console.log('Tomatoes are $0.49');
+    break;
+  case 'lime':
+    console.log('Limes are $1.49');
+    break;
+  case 'papaya':
+    console.log('Papayas are $1.29');
+    break;
+  default:
+    console.log('Invalid item');
+    break;
+}
+
+var moonPhase = 'full';
+
+switch (moonPhase) {
+  case 'full':
+    console.log('Howwwlll!!');
+    break;
+  case 'mostly full':
+    console.log('Arms and legs are getting hairier.');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet');
+    break;
+  default:
+    console.log('Invalid moon phase');
+    break;
+}
+
+function takeOrder() {
+  console.log('Order: pizza');
+}
+
+takeOrder()
+
+function takeOrder(topping) {
+  console.log('er: pizza topped with ' + topping);
+}
+
+takeOrder("bacon");
+
+function takeOrder(topping, crustType) {
+  console.log('Order:' + crustType + ' pizza topped with ' + topping);
+}
+
+takeOrder("bacon", "thin crust");
+takeOrder("bacon", "thin crust");
+takeOrder("bacon", "thin crust");
