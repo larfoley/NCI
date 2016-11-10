@@ -808,8 +808,8 @@ html {
   box-sizing: border-box;
   background: white;
   font-family: "Raleway", "Helvetica Neue", "Helvetica", "Tahoma", "Verdana", sans-serif;
-  font-size: 17px;
-  color: #ccc; }
+  font-size: 25px;
+  color: gray; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
@@ -844,6 +844,9 @@ li {
   background: #E74C3C;
   color: white;
   margin-bottom: 1em; }
+
+body {
+  padding: 3em; }
 
 .container {
   width: 1100px;
