@@ -1,6 +1,27 @@
+
+var harryPotterFan = false;
+
+if (harryPotterFan) {
+  console.log('Mischief managed');
+} else {
+  console.log('I lead a muggle\'s life');
+}
+
+var hungerLevel = 10;
+
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
+} else {
+  console.log('Let\'s eat later');
+}
+
+console.log('How much stuff can a variable hold? ', strength);
 var myString = "lar";
 var myNumber = 87;
 var myBoolean = true;
+
+console.log('bacon');
+console.log('bacon', 'pesto');
 
 
 // Do not edit the code under this line
@@ -17,6 +38,33 @@ console.log(3.5);
 console.log(2016 - 1969);
 console.log(65 / 240);
 console.log((65 / 240) * 100);
+
+var randomNumber = Math.floor(Math.random() * 100);
+
+console.log(randomNumber);
+
+//Opening line
+/*console.log('It was love at first sight.');
+
+console.log('The first time Yossarian saw the chaplain he fell madly in love with him.');
+console.log('Yossarian was in the hospital with a pain in his liver that fell just short of being jaundice.');
+console.log('The doctors were puzzled by the fact that it wasn\'t quite jaundice.');
+console.log('If it became jaundice they could treat it.');
+console.log('If it didn\'t become jaundice and went away they could discharge him.');
+console.log('But this just being short of jaundice all the time confused them.');*/
+
+var strength = "50,000 pounds";
+var age = 29;
+console.log(age);
+var hasPet = false;
+console.log(hasPet);
+
+var morningAlarm = "6:30AM";
+morningAlarm = "7:30AM";
+console.log('Morning alarm is set to: ', morningAlarm);
+
+var favoriteAnimal = "Dog";
+console.log("My favorite animal: " + favoriteAnimal);
 
 var harryPotterFan = false;
 
